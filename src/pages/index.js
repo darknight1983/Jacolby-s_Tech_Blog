@@ -1,4 +1,6 @@
-import * as React from "react"
+import * as React from "react";
+import { Link } from 'gatsby';
+import Layout from "../components/layout";
 
 
 // data
@@ -7,11 +9,10 @@ import * as React from "react"
 // markup
 const IndexPage = () => {
     return (
-        <main>
-            <title>Home Page</title>
-            <h1>Welcome to my Blog built with Gatsby</h1>
+
+        <Layout pageTitle={"Home Page"}>
             <p>Im building this by following the tutorial on Gatsby's website</p>
-        </main>
+        </Layout>
     )
 }
 
