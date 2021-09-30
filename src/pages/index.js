@@ -5,10 +5,7 @@ import Layout from "../components/layout";
 
 
 
-// data
 
-
-// markup
 const IndexPage = () => {
     return (
 
