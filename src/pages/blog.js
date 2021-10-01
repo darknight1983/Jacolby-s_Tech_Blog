@@ -7,15 +7,17 @@ const BlogPage = ({ data }) => {
     return (
         <Layout pageTitle="My Blog Posts">
             <ul>
-            </u1>
+                {data.allFile.nodes.map(node => (
+                <li key={node.name}>{node.name}</li>
+               ))}
+            </ul>
         </Layout>
     )
 }
 
-
 export const query = graphql`
     query {
-        allFiles {
+        allFile {
             nodes {
                 name
             }
