@@ -24,3 +24,24 @@
     font-weight: 700;
     margin: 3rem 0;
 }
+
+/*This style rule is a test for the new Grid system within Gastsby.*/
+.test-background {
+    background-color: #000;
+    width: 100%;
+}
+
+.banner {
+    width: 50%;
+}
+
+
+.logowrapper {
+    margin-left: 100px;
+    width: 20%;
+    height: auto;
+}
+
+.logo {
+    background-color: #FFF;
+}
